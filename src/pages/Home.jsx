@@ -9,7 +9,7 @@ const Home = () => {
       </div>
       <div className='cat5'>
          <div className="cat2">
-        <img src="src/assets/carpet.jpg" alt="" id='cat3'/>
+        <img src="src/assets/carpet (4).jpg" alt="" id='cat3'/>
         <p className='cat4'>Carpet Cleaning</p>
       </div>
       <div className="caat2">
