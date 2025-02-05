@@ -41,7 +41,7 @@ const Home = () => {
         <p className='caat4'>Mattress cleaing</p>
       </div>
       <div className="caat2">
-        <img src="src/assets/roof (1).jpg" alt="" id='caat3'/>
+        <img src="src/assets/roof (1).webp" alt="" id='caat3'/>
         <p className='caat4'>Overhead Cleaning</p>
       </div>
       </div>
