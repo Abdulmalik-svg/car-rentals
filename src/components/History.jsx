@@ -3,7 +3,7 @@ import React from 'react'
 const History  = () => {
   return (
     <div className='image-container'>
-      <img src="public/premium_photo-1680831748191-d726a2f7b201.avif" alt=""/>
+      <img src="src/assets/breif.png" alt=""/>
       <div class="text-overlay">"WE DO IT RIGHT THE FIRST TIME"</div>
 
       <p className="icon1">History</p>
