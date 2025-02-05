@@ -1,20 +1,39 @@
-import React from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from 'react-router';
 
-const Navbar = () => {
+function NaviBar() {
   return (
-    <nav id="bag4">
-      <ul id="bag1">
-        <li className="bag2">HOME</li>
-        <li className="bag2">ELEMENTS</li>
-        <li className="bag2">SHOP</li>
-        <li className="bag2">BLOG</li>
-        <li className="bag2">PAGES</li>
-      </ul>
-      <p id="bag3">GLOWING Shop</p>
-
-      <button id="bag5">Log In</button>
-    </nav>
+    <Navbar expand="lg" className="bg-slate-600 flex justify-center gap-36 ">
+      <Container>
+        <Navbar.Brand>
+          <NavLink to="/" className="no-underline w-24 h-24 mb-5"><img src="public/logo.svg" alt="VOLTA" /></NavLink>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link>
+              <NavLink to="/history" className=" no-underline "id='baba'>History</NavLink>
+            </Nav.Link>
+            <Nav.Link>
+              <NavLink to="/gallery" className=" no-underline " id='baba'>Gallery</NavLink>
+            </Nav.Link>
+            <Nav.Link>
+              <NavLink to="/blog" className=" no-underline " id='baba'>Blog</NavLink>
+            </Nav.Link>
+            <Nav.Link>
+              <NavLink to="/Ourcustomers" className=" no-underline "id='baba' >Our customers</NavLink>
+            </Nav.Link>
+            <Nav.Link>
+              <NavLink to="/login" className=" no-underline " id='baba'>Contact us</NavLink>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-};
+}
 
-export default Navbar;
+export default NaviBar;
