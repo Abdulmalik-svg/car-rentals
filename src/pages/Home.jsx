@@ -1,11 +1,11 @@
 import React from 'react'
-import Shadows from "../assets/Shadows.mp4"
+import Bhig3 from "../assets/Bhig3.mp4"
 const Home = () => {
   return (
    <div>
       <div className="main">
-        <video src={Shadows} autoPlay loop muted/>
-        
+        <img src="src/assets/banger2.jpg" alt="" />
+        <h1>"Welcome To Sonic Yatch Care"</h1>
       </div>
       <div className='cat5'>
          <div className="cat2">
@@ -47,7 +47,7 @@ const Home = () => {
       </div>
 
       <div className='landpage'>
-        <h1 className="">Welcome to Sonic Yacht Care</h1>
+        <h1 className="wiz">Welcome to Sonic Yacht Care</h1>
         <p className='land1'>Icon Yacht Care provides specialty yacht interior cleaning services including dry cleaning, laundry, carpet and upholstery, marble polishing and much more. We also provide new flooring installations (carpet, wood, marble) as well as fabrication of canvas and upholstery.
            We service all of south Florida including Fort Lauderdale, Miami, and West Palm Beach. 
            With over 20 years of experience in the marine industry, our only goal is to provide the best yacht service and results.</p>

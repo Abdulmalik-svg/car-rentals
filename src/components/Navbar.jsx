@@ -6,10 +6,10 @@ import { NavLink } from 'react-router';
 
 function NaviBar() {
   return (
-    <Navbar expand="lg" className="bg-slate-600 flex justify-center gap-36 ">
+    <Navbar expand="lg" className="world ">
       <Container>
         <Navbar.Brand>
-          <NavLink to="/" className="no-underline w-24 h-24 mb-5"><img src="public/logo.svg" alt="VOLTA" /></NavLink>
+          <NavLink to="/" className="no-underline w-24 h-24 mb-5 "><header><big><strong><i>SONIC</i></strong></big></header></NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -1,12 +1,13 @@
 import React from 'react'
-import { Facebook, } from "lucide-react";
 const Footer = () => {
   return (
     <div>
      <footer>
   <div class="footer-container">
     <div class="footer-section">
-    <img src="public/logo.svg" alt="Volta Yacht Logo"/>
+    <header><big><strong><i>SONIC</i></strong></big></header>
+    <br />
+    <br />
       <p>Experience the thrill of luxury yachting with Volta Yacht</p>
     </div>
     <div class="footer-section">
@@ -28,8 +29,7 @@ const Footer = () => {
     <div class="footer-section">
       <h2>Follow Us</h2>
       <ul>
-        <li><a href="#">
-        <Facebook size={15} className='inline' /> </a></li>
+        <li><a href="#">Facebook </a></li>
         <li><a href="https://www.instagram.com/volta_yachts?igsh=MXVqODlhOWRrNmV6Yw=="><i class="fa fa-instagram"></i> Instagram</a></li>
         <li><a href="https://x.com/voltayachts?t=D21VZSSrKzV15d3tfpDJXA&s=09"><i class="fa fa-twitter"></i> Twitter</a></li>
       </ul>
