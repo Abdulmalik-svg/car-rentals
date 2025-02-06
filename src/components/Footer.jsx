@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex items-start space-x-3">
-              <img src="public/master3.jpg" alt="News 2" className="w-16 h-16 object-cover rounded-lg" />
+              <img src="src/assets/carpet (4) (3).jpg" alt="News 2" className="w-16 h-16 object-cover rounded-lg" />
               <div>
                 <p className="text-sm font-semibold">Our proprietary enables quality.</p>
                 <p className="text-xs opacity-80">10 Feb 2023</p>

@@ -47,7 +47,7 @@ const ContactUs = () => {
 
               <div>
                 <label className="block text-gray-700 font-semibold">Email</label>
-                <input type="email" className="w-full p-3 border border-gray-300 rounded-lg" placeholder="Enter your email" required />
+                <input type="email" className="w-full p-3 border border-gray-300 rounded-lg" placeholder="example@mail.com" required />
               </div>
 
               <div>

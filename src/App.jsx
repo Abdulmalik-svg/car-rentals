@@ -10,7 +10,6 @@ import Payments from "./Components/Payments";
 import Footer from "./Components/Footer";
 import Aboutus from "./Components/AboutUs";
 import Services from "./Pages/Services";
-
 function App() {
   return (
     <>

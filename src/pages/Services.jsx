@@ -6,7 +6,7 @@ const Services = () => {
       <div className="container mx-auto px-6">
 
         {/* Hero Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 ">
           <h1 className="text-4xl font-bold text-gray-800">Professional Cleaning Services</h1>
           <div className="w-20 h-1 bg-blue-600 mx-auto my-3"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ const Services = () => {
 
         {/* CTA Section */}
         <div className="text-center mt-10">
-          <a href="/contact" className="bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
+          <a href="/login" className="bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
             Book a Cleaning Service
           </a>
         </div>
