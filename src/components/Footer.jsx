@@ -39,7 +39,7 @@ const Footer = () => {
             </p>
             <p className="flex items-center space-x-2">
               <Phone size={16} className="text-yellow-400" />
-              <span>+44-5460-0891-65</span>
+              <span>+234-9035-7559-83</span>
             </p>
           </div>
 
@@ -47,11 +47,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:underline">Home</a></li>
-              <li><a href="#" className="hover:underline">Pricing</a></li>
-              <li><a href="#" className="hover:underline">About Us</a></li>
-              <li><a href="#" className="hover:underline">Careers</a></li>
-              <li><a href="#" className="hover:underline">Blogs</a></li>
+              <li><a href="http://localhost:5173/" className="hover:underline">Home</a></li>
+              <li><a href="http://localhost:5173/services" className="hover:underline">Services</a></li>
+              <li><a href="http://localhost:5173/aboutus" className="hover:underline">About Us</a></li>
+              <li><a href="http://localhost:5173/login" className="hover:underline">Contact Us</a></li>
             </ul>
           </div>
 

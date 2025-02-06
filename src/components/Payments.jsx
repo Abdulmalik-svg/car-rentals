@@ -123,7 +123,7 @@ const Payments = () => {
           {/* Bank Transfer Instructions */}
           {paymentMethod === "bankTransfer" && (
             <p className="text-blue-600 text-sm">
-              Please transfer the amount to <strong>Bank ABC, Acc: 123456789</strong>.
+              Please transfer the amount to <strong>Bank OPAY, Acc: 9035755983</strong>.
             </p>
           )}
 

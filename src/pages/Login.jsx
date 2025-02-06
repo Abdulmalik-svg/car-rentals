@@ -25,13 +25,13 @@ const ContactUs = () => {
             </p>
             <div className="space-y-4">
               <p className="text-gray-700">
-                📍 <strong>Address:</strong> 697 New City, United States, 18670
+                📍 <strong>Address:</strong> 697 Gra, Nigeria, 240101
               </p>
               <p className="text-gray-700">
-                📧 <strong>Email:</strong> info@example.com
+                📧 <strong>Email:</strong> Sonic@gmail.com
               </p>
               <p className="text-gray-700">
-                📞 <strong>Phone:</strong> +44-5460-0891-65
+                📞 <strong>Phone:</strong> +234-9035-7559-83
               </p>
             </div>
           </div>
@@ -55,7 +55,7 @@ const ContactUs = () => {
                 <textarea className="w-full p-3 border border-gray-300 rounded-lg" placeholder="Your message here..." rows="4" required></textarea>
               </div>
 
-              <button type="submit" className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+              <button type="submit" className="w-full bg-blue-600 text-black py-3 rounded-lg font-semibold hover:bg-blue-700 transition no-underline">
                <a href="http://localhost:5173/payments">Send Message</a>
               </button>
             </form>
