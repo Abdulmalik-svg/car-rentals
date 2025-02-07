@@ -39,7 +39,7 @@ const Footer = () => {
             </p>
             <p className="flex items-center space-x-2">
               <Phone size={16} className="text-yellow-400" />
-              <span>+44-5460-0891-65</span>
+              <span>+234-9035-7559-83</span>
             </p>
           </div>
 
@@ -47,10 +47,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Links</h3>
             <ul className="space-y-2">
-              <li><a href="http://localhost:5173/" className=" no-underline">Home</a></li>
-              <li><a href="http://localhost:5173/aboutus" className=" no-underline">About Us</a></li>
-              <li><a href="http://localhost:5173/services" className="no-underline">Services</a></li>
-              <li><a href="http://localhost:5173/login" className=" no-underline">Contacts Us</a></li>
+              <li><a href="http://localhost:5173/" className="hover:underline">Home</a></li>
+              <li><a href="http://localhost:5173/services" className="hover:underline">Services</a></li>
+              <li><a href="http://localhost:5173/aboutus" className="hover:underline">About Us</a></li>
+              <li><a href="http://localhost:5173/login" className="hover:underline">Contact Us</a></li>
             </ul>
           </div>
 
@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex items-start space-x-3">
-              <img src="public/master3.jpg" alt="News 2" className="w-16 h-16 object-cover rounded-lg" />
+              <img src="src/assets/carpet (4) (3).jpg" alt="News 2" className="w-16 h-16 object-cover rounded-lg" />
               <div>
                 <p className="text-sm font-semibold"> <a href="https://qmclean.com.ng/" className=" no-underline">Our proprietary enables quality.</a></p>
                 <p className="text-xs opacity-80">10 Feb 2023</p>

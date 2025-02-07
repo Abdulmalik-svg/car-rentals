@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center space-x-2">
               <FaEnvelope size={16} /> {/* Mail icon from React Icons */}
-              <span>Mail to us: bhigdhaddie@gmail.com</span>
+              <span>Mail to us: Sonic@gmail.com</span>
             </div>
           </div>
         </div>
