@@ -128,7 +128,9 @@ const Payments = () => {
           )}
 
           {/* Pay Button */}
-          <button 
+          <button onClick={()=>{
+            alert("Payment Successful")
+          }}
             type="submit" 
             className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
           >

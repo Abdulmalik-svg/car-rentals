@@ -1,6 +1,6 @@
 import React from "react";
 import { PhoneCall, Mail } from "lucide-react";
-
+import { Link } from "react-router";
 const Home = () => {
   const services = [
     {
@@ -37,7 +37,7 @@ const Home = () => {
                 carpet and floor cleaning to windows and deep clean.
               </p>
               <button className="bg-yellow-400 text-black hover:bg-yellow-500 px-4 py-2 rounded">
-                Appointment
+               <a href="http://localhost:5173/book" className=" text-white no-underline">Appointment</a> 
               </button>
             </div>
             <div className="relative h-[400px]">
@@ -77,7 +77,7 @@ const Home = () => {
             <h3 className="text-xl font-bold mb-3">{service.title}</h3>
             <p className="text-gray-600 mb-4">{service.description}</p>
             <button className="text-blue-600 border-blue-600 border-2 px-4 py-2 rounded">
-              More Details
+            <Link to="/house">More Details</Link> 
             </button>
           </div>
         </div>

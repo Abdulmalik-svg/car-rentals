@@ -52,7 +52,7 @@ const Services = () => {
         {/* CTA Section */}
         <div className="text-center mt-10">
           <a href="/contact" className="bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
-            Book a Cleaning Service
+          <a href="http://localhost:5173/book" className=" text-white no-underline">Book a Cleaning Service</a>
           </a>
         </div>
 

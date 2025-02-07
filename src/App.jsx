@@ -5,11 +5,12 @@ import Login from "./Pages/Login";
 // import Ourcustomers from "./Pages/Our customers";
 import Navibar from './Components/Navbar';
 import NotFound from "./Pages/NotFound";
-import Dashboard from "./Pages/Dashboard";
-import Payments from "./Components/Payments";
+import Book from "./Pages/Book";
+import Payments from "./Pages/Payments";
 import Footer from "./Components/Footer";
 import Aboutus from "./Components/AboutUs";
 import Services from "./Pages/Services";
+import House from "./Pages/house";
 
 function App() {
   return (
@@ -19,11 +20,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="login" element={<Login />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="book" element={<Book />} />
           <Route path="Payments" element={<Payments />} />
           <Route path="*" element={<NotFound />} />
           <Route path="aboutus" element={<Aboutus />} />
           <Route path="Services" element={<Services />} />
+          <Route path="house" element={<House />} />
         </Routes>
         <Footer />
       </BrowserRouter>
